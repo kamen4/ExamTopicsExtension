@@ -1,0 +1,31 @@
+# Chrome Extension Build Artifacts
+dist/
+build/
+*.zip
+*.crx
+
+# Development
+node_modules/
+package-lock.json
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary
+temp/
+tmp/
+*.tmp

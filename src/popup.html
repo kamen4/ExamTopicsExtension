@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamTopics Navigator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ExamTopics Navigator</h1>
+        
+        <div id="content">
+            <div class="info-section is-hidden" id="info-section">
+                <div class="info-item">
+                    <span class="info-label">Exam:</span>
+                    <span class="info-value" id="exam-name">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Topic:</span>
+                    <span class="info-value" id="current-topic">-</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Question:</span>
+                    <span class="info-value" id="current-question">-</span>
+                </div>
+            </div>
+
+            <div class="button-group is-hidden" id="nav-buttons">
+                <button class="btn-prev" id="btn-prev">Previous</button>
+                <button class="btn-next" id="btn-next">Next</button>
+            </div>
+
+            <div id="input-section" class="is-hidden">
+                <div class="input-group">
+                    <div class="input-field">
+                        <label for="topic-input">Topic Number</label>
+                        <input type="number" id="topic-input" min="1" value="1">
+                    </div>
+                    <div class="input-field">
+                        <label for="question-input">Question Number</label>
+                        <input type="number" id="question-input" min="1" value="1">
+                    </div>
+                </div>
+                <button class="btn-go" id="btn-go">Go To Question</button>
+            </div>
+
+            <div class="status" id="status"></div>
+
+            <div class="not-on-exam is-hidden" id="not-on-exam">
+                Please open examtopics.com to use this extension.
+                <div class="not-on-exam-actions">
+                    <button id="open-examtopics" class="btn-open-site">Open ExamTopics</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Version 1.0.0
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
