@@ -17,21 +17,27 @@ To update after changes:
 ## Usage
 ### On ExamTopics pages
 Open any https://www.examtopics.com page. A small on-page panel is available to navigate.
+
 ![main_page.png](screenshots/main_page.png)
 
 You can enter Exam Code, Topic, and Question to jump directly. Use Hide to hide the panel and use the small Open button to show it again.
+
 ![open_circle.png](screenshots/open_circle.png)
 
 ### Using the extension popup
 Click the extension icon to open the popup. Use Next and Previous to navigate. Use Go To to open an exact topic and question.
+
 ![discussion_page.png](screenshots/discussion_page.png)
 
 ## IMPORTANT
 If navigation cannot find a page, Google may require a captcha. Solve it in the opened tab.
+
 ![captcha.png](screenshots/captcha.png)
 
 Close opened search page.
+
 ![page_to_close.png](screenshots/page_to_close.png)
 
 Try again whatever you clicked.
+
 ![retry.png](screenshots/retry.png)
